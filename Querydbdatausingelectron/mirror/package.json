@@ -1,0 +1,17 @@
+{
+  "name": "mirror",
+  "version": "1.0.0",
+  "description": "Like looking into a mirror",
+  "repository": "electron/simple-samples",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^25.1.0",
+    "msnodesqlv8": "^3.1.0",
+    "mssql": "^9.1.1"
+  }
+}

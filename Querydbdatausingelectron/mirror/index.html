@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron MSSQL App</title>
+  </head>
+  <body>
+    <div id="result"></div>
+
+    <script>
+      // Receive the query result from the main Electron process
+      const { ipcRenderer } = require('electron');
+
+      ipcRenderer.on('queryResult', (event, result) => {
+        const resultDiv = document.getElementById('result');
+
+        // Display the query result on the page
+        result.forEach((row) => {
+          const rowElement = document.createElement('div');
+          rowElement.innerText = JSON.stringify(row);
+          resultDiv.appendChild(rowElement);
+        });
+      });
+    </script>
+  </body>
+</html>

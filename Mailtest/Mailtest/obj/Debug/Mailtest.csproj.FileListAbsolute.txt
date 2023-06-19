@@ -1,0 +1,8 @@
+C:\Users\ajoshi94\source\repos\Mailtest\Mailtest\bin\Debug\Mailtest.exe.config
+C:\Users\ajoshi94\source\repos\Mailtest\Mailtest\bin\Debug\Mailtest.exe
+C:\Users\ajoshi94\source\repos\Mailtest\Mailtest\bin\Debug\Mailtest.pdb
+C:\Users\ajoshi94\source\repos\Mailtest\Mailtest\obj\Debug\Mailtest.csproj.AssemblyReference.cache
+C:\Users\ajoshi94\source\repos\Mailtest\Mailtest\obj\Debug\Mailtest.csproj.ResolveComReference.cache
+C:\Users\ajoshi94\source\repos\Mailtest\Mailtest\obj\Debug\Mailtest.csproj.CoreCompileInputs.cache
+C:\Users\ajoshi94\source\repos\Mailtest\Mailtest\obj\Debug\Mailtest.exe
+C:\Users\ajoshi94\source\repos\Mailtest\Mailtest\obj\Debug\Mailtest.pdb

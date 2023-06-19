@@ -1,0 +1,14 @@
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\bin\Debug\netcoreapp3.1\csvcheck.exe
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\bin\Debug\netcoreapp3.1\csvcheck.deps.json
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\bin\Debug\netcoreapp3.1\csvcheck.runtimeconfig.json
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\bin\Debug\netcoreapp3.1\csvcheck.runtimeconfig.dev.json
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\bin\Debug\netcoreapp3.1\csvcheck.dll
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\bin\Debug\netcoreapp3.1\csvcheck.pdb
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\obj\Debug\netcoreapp3.1\csvcheck.csproj.AssemblyReference.cache
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\obj\Debug\netcoreapp3.1\csvcheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\obj\Debug\netcoreapp3.1\csvcheck.AssemblyInfoInputs.cache
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\obj\Debug\netcoreapp3.1\csvcheck.AssemblyInfo.cs
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\obj\Debug\netcoreapp3.1\csvcheck.csproj.CoreCompileInputs.cache
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\obj\Debug\netcoreapp3.1\csvcheck.dll
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\obj\Debug\netcoreapp3.1\csvcheck.pdb
+C:\Users\ajoshi94\source\repos\csvcheck\csvcheck\obj\Debug\netcoreapp3.1\csvcheck.genruntimeconfig.cache

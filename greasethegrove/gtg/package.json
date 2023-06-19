@@ -1,0 +1,110 @@
+{
+  "name": "gtg",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-router-dom": "^5.1.1",
+    "styled-components": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdevero/grease-the-groove-app.git"
+  },
+  "homepage": "https://github.com/alexdevero/grease-the-groove-app#readme",
+  "bugs": {
+    "url": "https://github.com/alexdevero/grease-the-groove-app/issues"
+  },
+  "author": {
+    "name": "Alex Devero",
+    "email": "deveroalex@gmail.com",
+    "url": "https://alexdevero.com/"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "app",
+    "application",
+    "bodybuilding",
+    "calisthenics",
+    "desktop-app",
+    "desktop-application",
+    "electron-app",
+    "exercise",
+    "fitness",
+    "grease",
+    "groove",
+    "health",
+    "open",
+    "open-source",
+    "source",
+    "strength"
+  ],
+  "engines": {
+    "node": ">=9.0",
+    "npm": ">=5.0",
+    "yarn": ">=1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "@types/eslint": "^6.1.2",
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "@types/react-router-dom": "^5.1.0",
+    "@types/styled-components": "^4.1.19",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "babel-loader": "^8.0.6",
+    "babili-webpack-plugin": "^0.0.0",
+    "electron": "^25.0.1",
+    "electron-packager": "^17.1.1",
+    "eslint": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --config webpack.build.config.js --mode production",
+    "start": "webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js  --mode development",
+    "package:all": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=all --icon=src/assets/grease-the-groove-icon",
+    "package:linux": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=linux --icon=src/assets/grease-the-groove-icon",
+    "package:macappstore": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=mas --icon=src/assets/grease-the-groove-icon",
+    "package:osx": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=darwin --icon=src/assets/grease-the-groove-icon",
+    "package:win": "npm run build && electron-packager ./ --out=./builds --overwrite --platform=win32 --icon=src/assets/grease-the-groove-icon",
+    "prod": "npm run build && electron --noDevServer ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
